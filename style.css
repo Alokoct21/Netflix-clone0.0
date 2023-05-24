@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.bg-image {
+    height: 900px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.916), rgba(0, 0, 0, 0.668)), url("./assets-1/netflixteaser.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-image img {
+    width: 11.25rem;
+    margin-left: 60px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.sign-in {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    top: -68px;
+    margin-left: 75rem;
+}
+
+select {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+
+select option {
+    color: black;
+
+}
+
+button {
+    background-color: rgb(193, 17, 25);
+    border-style: none;
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: larger;
+}
+
+button:hover {
+    background-color: rgb(133, 7, 13);
+
+}
+
+.heading {
+    margin-top: 70px;
+    margin-left: 150px;
+
+}
+
+.heading h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+
+
+}
+
+.heading p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.user-main {
+
+    width: 77rem;
+    margin-left: 146px;
+    border: 4px solid red;
+    margin-top: 50px;
+    padding: 30px 0px 30px 30px;
+    border-radius: 10px;
+    background: rgb(9, 9, 35);
+
+
+}
+
+.user-main h3 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+
+}
+
+.input input {
+    padding: 20px 150px;
+    background-color: black;
+    color: #fff;
+    border-radius: 5px;
+
+}
+input[type="email"]::placeholder {
+ text-align: left;
+   
+}
+
+.input button {
+
+    padding: 18px 40px 18px 40px;
+    margin-left: 7px;
+    font-weight: 600;
+}
+.input button:hover{
+    background-color: rgb(145, 8, 8);
+}
