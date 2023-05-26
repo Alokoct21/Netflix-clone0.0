@@ -4,12 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
 
 .bg-image {
     height: 900px;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.916), rgba(0, 0, 0, 0.668)), url("./assets-1/netflixteaser.png");
     background-size: contain;
     background-repeat: no-repeat;
+    margin-bottom: -180px;
 }
 
 .bg-image img {
@@ -30,9 +34,11 @@
 select {
     background-color: transparent;
     color: #fff;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 25px 10px 25px;
     border-radius: 5px;
     margin-right: 10px;
+    border-style: none;
+    border: 2px solid rgb(123, 122, 122);
 
 }
 
@@ -44,10 +50,11 @@ select option {
 button {
     background-color: rgb(193, 17, 25);
     border-style: none;
-    padding: 10px 15px 10px 15px;
+    padding: 8px 20px 8px 20px;
     border-radius: 5px;
     color: #fff;
     font-size: larger;
+    border-style: none;
 }
 
 button:hover {
@@ -65,6 +72,7 @@ button:hover {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
+    font-weight: 800;
 
 
 }
@@ -96,28 +104,140 @@ button:hover {
     font-weight: 100;
     font-size: 20px;
     margin-bottom: 20px;
-    
+
 
 }
 
 .input input {
-    padding: 20px 150px;
+    width: 30%;
+    padding: 1.2rem;
     background-color: black;
     color: #fff;
     border-radius: 5px;
+    border-style: none;
+    border: 2px solid rgb(76, 75, 75);
 
 }
+
 input[type="email"]::placeholder {
- text-align: left;
-   
+    text-align: left;
+
 }
 
 .input button {
 
-    padding: 18px 40px 18px 40px;
+    padding: 1rem 2rem;
     margin-left: 7px;
     font-weight: 600;
+    position: relative;
+    bottom: -1px;
 }
-.input button:hover{
+
+.input button:hover {
     background-color: rgb(145, 8, 8);
+}
+
+/* header close */
+
+/* feature start */
+
+.feature {
+    width: 92%;
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 100vw;
+    background-color: rgb(9, 9, 36);
+    border-radius: 10px;
+    display: inline-block;
+
+}
+
+.enjoy-tv {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.enjoy-tv h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    display: inline-block;
+    margin-top: 100px;
+
+
+
+}
+
+.enjoy-tv p {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+
+
+}
+
+.tv-image {
+    height: 500px;
+    background: url("./assets-1/bg-image.png");
+    margin-left: 700px;
+    margin-top: -310px;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.line {
+    border: 0.8px solid rgb(76, 74, 74);
+    margin-left: 100px;
+    margin-right: 60px;
+   
+}
+
+
+.watch-image {
+    width: 37rem;
+    background: url("./assets-1/img-1.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 1%;
+    
+    
+
+}
+.watch-tv{
+    margin-left: 53%;
+    margin-top: -21%;
+}
+.watch-tv h1 {
+   font-size: 3rem;
+   font-weight: 900;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    
+   
+
+}
+
+.watch-tv p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+}
+.line1{
+    border: 0.8px solid rgb(76, 74, 74);
+    margin-left: 100px;
+    margin-right: 60px;
+    margin-top: 15%;
 }
