@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(3, 3, 24);
 }
 
 .bg-image {
@@ -306,4 +306,33 @@ input[type="email"]::placeholder {
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 
+}
+
+/* footer start */
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+.foot ul li{
+    margin-top: 10px;
+} 
+.foot ul li a{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer1{
+    display: inline-block;
+    
+}
+
+.footer2{
+    display: inline-block;
+}.footer3{
+    display: inline-block;
+}.footer4{
+    display: inline-block;
 }
