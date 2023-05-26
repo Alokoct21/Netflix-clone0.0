@@ -145,7 +145,7 @@ input[type="email"]::placeholder {
     width: 92%;
     margin-left: 60px;
     margin-right: 60px;
-    height: 100vw;
+    height: 141vw;
     background-color: rgb(9, 9, 36);
     border-radius: 10px;
     display: inline-block;
@@ -195,7 +195,7 @@ input[type="email"]::placeholder {
     border: 0.8px solid rgb(76, 74, 74);
     margin-left: 100px;
     margin-right: 60px;
-   
+
 }
 
 
@@ -207,22 +207,24 @@ input[type="email"]::placeholder {
     display: inline-block;
     margin-left: 7%;
     margin-top: 1%;
-    
-    
+
+
 
 }
-.watch-tv{
+
+.watch-tv {
     margin-left: 53%;
     margin-top: -21%;
 }
+
 .watch-tv h1 {
-   font-size: 3rem;
-   font-weight: 900;
+    font-size: 3rem;
+    font-weight: 900;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
-    
-   
+
+
 
 }
 
@@ -231,13 +233,77 @@ input[type="email"]::placeholder {
     font-weight: 500;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
-    
-    
-    
+
+
+
 }
-.line1{
+
+.line1 {
     border: 0.8px solid rgb(76, 74, 74);
     margin-left: 100px;
     margin-right: 60px;
     margin-top: 15%;
+}
+
+.profile-content {
+    margin-left: 10%;
+    margin-top: 14%;
+}
+
+.profile-content h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.profile-content p {
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.profile-image {
+    background: url("./assets-1/img-3.png");
+    height: 500px;
+    background-repeat: no-repeat;
+    margin-left: 49%;
+    margin-top: -19%;
+}
+
+.line2 {
+    border: 0.8px solid rgb(76, 74, 74);
+    margin-left: 100px;
+    margin-right: 60px;
+
+}
+
+.download-image {
+    background: url("./assets-1/img-2.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 30px;
+
+}
+.download-content{
+    margin-left: 46%;
+    margin-top: -26%;
+}
+.download-content h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.download-content p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
